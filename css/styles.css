@@ -1,0 +1,50 @@
+/* Global Styling */
+@import url("https://fonts.googleapis.com/css2?family=Long+Cang&family=Merriweather:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Long+Cang&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+nav {
+  font-family: "Long Cang", cursive;
+  background-color: whitesmoke;
+  border: 0.5px solid wheat;
+  height: 2rem;
+  padding: 0.8rem;
+  min-width: 100vw;
+}
+nav .nav-ul {
+  display: flex;
+  justify-content: space-between;
+}
+nav a {
+  font-size: 1.4rem;
+}
+
+/* Hero Container Styling */
+.hero {
+  max-height: 90vh;
+  /* background-color: red; */
+  min-width: 100vw;
+  min-height: 90vh;
+}
+.image {
+  text-align: center;
+  margin-top: 2rem;
+}
+.image img {
+  width: 400px;
+  height: 400px;
+  border-radius: 200px;
+  background-color: red;
+  margin: auto;
+
+  padding-right: 1px;
+}
+
+.hero-container {
+  font-family: "Merriweather", serif;
+}
