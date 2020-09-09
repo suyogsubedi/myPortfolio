@@ -8,13 +8,31 @@
 ul {
   list-style: none;
 }
+.button {
+  color: white;
+  background-color: green;
+  padding: 15px;
+  margin-top: 20px;
+}
+.button:hover {
+  background-color: white;
+  color: black;
+}
+.highlight {
+  background-color: blue;
+}
+.bottom-highlight {
+  background-color: white;
+}
+
+/* Global stylings end here */
 nav {
   font-family: "Long Cang", cursive;
   background-color: whitesmoke;
   border: 0.5px solid wheat;
   height: 2rem;
   padding: 0.8rem;
-  min-width: 100vw;
+  max-width: 100%;
 }
 nav .nav-ul {
   display: flex;
@@ -28,7 +46,7 @@ nav a {
 .hero {
   max-height: 90vh;
   /* background-color: red; */
-  min-width: 100vw;
+  min-width: 100%;
   min-height: 90vh;
 }
 .image {
@@ -47,4 +65,55 @@ nav a {
 
 .hero-container {
   font-family: "Merriweather", serif;
+}
+
+/* Projects */
+#projects {
+  margin: auto;
+  width: 50%;
+  height: 50vh;
+  background-color: red;
+}
+.boxes {
+  display: flex;
+  background-color: black;
+  padding: 15px;
+  width: 100%;
+  height: 50vh;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.box {
+  text-align: center;
+  /* padding: 2px; */
+  width: 50%;
+  height: 25vh;
+  background-color: red;
+}
+.project-container .react {
+  color: white;
+  background: url("../images/react.svg.png") no-repeat center center/cover;
+}
+.project-container .react:hover {
+  background-color: white;
+}
+.project-container .javascript {
+  color: white;
+  background: url("../images/javascript.png") no-repeat center center/cover;
+}
+
+.project-container .python {
+  color: white;
+  background: url("../images/python.svg.png") no-repeat center center/cover;
+}
+.project-container .html-css {
+  color: white;
+  background: url("../images/html.png") no-repeat center center/cover;
+}
+.buttons {
+  margin-top: 50px;
+}
+.bottom {
+  color: black;
+  margin-top: 106px;
 }
